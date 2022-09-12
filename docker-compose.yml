@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: javascript-ast-tutorial
+    volumes:
+      - .:/usr/src/app
+      - node_modules_volume:/usr/src/app/node_modules:delegated
+
+volumes:
+  node_modules_volume:
