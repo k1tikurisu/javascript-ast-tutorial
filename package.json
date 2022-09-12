@@ -1,5 +1,6 @@
 {
   "name": "app",
+  "type": "module",
   "scripts": {
     "format": "prettier --write ."
   },
