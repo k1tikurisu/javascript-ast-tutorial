@@ -5,6 +5,8 @@
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "noEmit": true
+    "noImplicitAny": false,
+    "noEmit": true,
+    "typeRoots": ["src/@types", "node_modules/@types"]
   }
 }
